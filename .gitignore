@@ -29,16 +29,15 @@ proguard/
 # Eclipse
 .project
 .classpath
-.settings
-.checkstyle
-.apt_generated
-classes
+.settings/
+.apt_generated/
+classes/
 
 # Maven
-target
+target/
 release.properties
 pom.xml.*
 
 # Other
 .DS_Store
-tmp
+tmp/
