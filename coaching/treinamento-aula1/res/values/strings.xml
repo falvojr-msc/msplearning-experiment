@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Treinamento Aula 1</string>
+    <string name="action_sobre">Sobre&#8230;</string>
+    <string name="action_logar">Logar</string>
+    <string name="descricao_dialog_sobre">Nosso primeiro aplicativo :)</string>
+    <string name="hint_senha">Senha</string>
+    <string name="hint_email">Email</string>
+    <string name="msg_campo_obrigatorio">Campo obrigatório!</string>  
+    <string name="msg_email_invalido">Email inválido!</string>
+    <string name="msg_erro_autenticacao">Email ou Senha inválidos!</string>
+    <string name="titulo_dialog_sobre">Sobre</string>
+    
+    <string name="titulo_activity_home">Home</string>
+    <string name="msg_sucesso_login">Usuário logado com sucesso!</string>
+
+</resources>

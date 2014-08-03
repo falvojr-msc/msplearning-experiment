@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- String com o nome do Aplicativo -->
+    <string name="app_name">Treinamento Aula 3</string>
+    
+    <!-- Strings comuns -->
+    <string name="progress_aguarde">Aguarde&#8230;</string> 
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string> 
+    <string name="msg_campo_obrigatorio">Campo obrigatório!</string>
+    <string name="msg_erro_rest">Ocorreu um erro inesperado.</string>
+    
+    <!-- Strings fluxos -->
+    <string name="action_incluir">Incluir</string>
+    <string name="action_editar">Editar</string>
+    <string name="action_excluir">Excluir</string>
+    <string name="action_refresh">Refresh</string>
+
+</resources>
