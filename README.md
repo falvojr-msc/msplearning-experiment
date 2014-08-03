@@ -1,4 +1,4 @@
 M-SPLearning Experiment
 ======================
 
-Experiment for Master project
+Experiment for M-SPLearning master's project
