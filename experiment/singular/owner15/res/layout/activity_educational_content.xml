@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.cast.android.exp.EducationalContentActivity" >
+
+    <EditText
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_titulo"
+        android:maxLines="1"
+        android:maxLength="100"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_url_video"
+        android:maxLines="1"
+        android:singleLine="true" 
+        android:maxLength="255">
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtNotaRodape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_nota_rodape"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:maxLength="100" >
+    </EditText>
+    
+        <EditText
+        android:id="@+id/txtPagina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_pagina"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:inputType="number" >
+    </EditText>
+    
+        <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_salvar" />
+        
+
+</LinearLayout>

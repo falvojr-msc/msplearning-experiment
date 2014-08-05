@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- String com o nome do Aplicativo -->
+    <string name="app_name">Experimento</string>
+
+    <!-- Strings comuns -->
+    <string name="progress_aguarde">Aguarde&#8230;</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="me01">Este campo é obrigatório</string>
+    <string name="me02">Esta URL é inválida</string>
+    <string name="mc01">Este Conteúdo Educacional será descartado. Deseja confirmar?</string>
+    <string name="titulo_dialog_confirmacao">Confirmação</string>
+    
+    
+    <string name="msg_erro_rest">Ocorreu um erro inesperado.</string>
+    <string name="msg01">Conteúdo Educacional criado com sucesso.</string>
+    <string name="msg02">Conteúdo Educacional alterado com sucesso.</string>    
+    <string name="msg03">Conteúdo Educacional descartado com sucesso.</string>
+    
+    
+
+    <!-- Strings fluxos -->
+    <string name="action_incluir">Incluir</string>
+    <string name="action_editar">Editar</string>
+    <string name="action_excluir">Excluir</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_educational_content">Educationa lContent Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_content_title">Título</string>
+    <string name="hint_content_uri">URL do Vídeo</string>
+    <string name="hint_content_footnote">Nota de Rodapé</string>
+    <string name="hint_content_page">Página</string>
+    <string name="btn_salvar">Salvar</string>
+
+</resources>

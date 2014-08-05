@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="100"
+        android:hint="@string/hint_titulo" >
+
+       <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtUrlImagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="255"
+        android:hint="@string/hint_url_imagem" />
+
+    <EditText
+        android:id="@+id/txtNotaRodape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+         android:maxLength="100"
+        android:hint="@string/hint_nota_rodape" />
+
+     <EditText
+         android:id="@+id/txtPagina"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:hint="@string/hint_pagina"
+         android:inputType="number" />
+
+      <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- String com o nome do Aplicativo -->
+    <string name="app_name">Experimento</string>
+
+    <!-- Strings comuns -->
+    <string name="progress_aguarde">Aguarde&#8230;</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="msg_campo_obrigatorio">Este campo obrigatório!</string>
+    <string name="msg_erro_rest">Ocorreu um erro inesperado.</string>
+
+    <!-- Strings fluxos -->
+    <string name="action_incluir">Incluir</string>
+    <string name="action_editar">Editar</string>
+    <string name="action_excluir">Excluir</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_salvar">Salvar</string>
+    <string name="title_dialog_confirmacao">Confirmação</string>
+    <string name="title_activity_educational_content">Experimento</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Hints campos -->
+    <string name="hint_titulo">Título</string>
+    <string name="hint_url_video">Url do vídeo</string>
+    <string name="hint_nota_rodape">Nota do rodapé</string>
+    <string name="hint_pagina">Página</string>
+
+    <!-- Mensagens Educational Content -->
+    <string name="msg_dialog_confirmacao_exclusao">Este Conteúdo Educacional será descartado. Deseja confirmar?</string>
+    <string name="msg_sucesso_incluir">Conteúdo Educacional criado com sucesso.</string>
+    <string name="msg_sucesso_editar">Conteúdo Educacional alterado com sucesso.</string>
+    <string name="msg_sucesso_exclusao">Conteúdo Educacional descartado com sucesso.</string>
+    <string name="msg_erro_url">Esta URL é inválida.</string>
+
+</resources>

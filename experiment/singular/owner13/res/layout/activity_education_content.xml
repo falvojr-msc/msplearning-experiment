@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10" 
+        android:hint="@string/hint_titulo">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtTitulo"
+        android:ems="10" 
+        android:hint="@string/hint_url"/>
+
+    <EditText
+        android:id="@+id/txtNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtImg"
+        android:ems="10"
+		android:hint="@string/hint_nota"/>
+
+    <EditText
+        android:id="@+id/txtPagina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtNota"
+        android:ems="10"
+        android:inputType="number"
+		android:hint="@string/hint_pagina"/>
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtPagina"
+        android:layout_marginTop="22dp"
+        android:text="@string/btnSalvar" />
+
+</RelativeLayout>

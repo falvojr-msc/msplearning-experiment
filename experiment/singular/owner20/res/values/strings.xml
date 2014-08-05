@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- String com o nome do Aplicativo -->
+    <string name="app_name">Experimento</string>
+
+    <!-- Strings comuns -->
+    <string name="progress_aguarde">Aguarde&#8230;</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="msg_campo_obrigatorio">Campo obrigatório!</string>
+    <string name="msg_erro_rest">Ocorreu um erro inesperado.</string>
+
+    <!-- Strings fluxos -->
+    <string name="action_incluir">Incluir</string>
+    <string name="action_editar">Editar</string>
+    <string name="action_excluir">Excluir</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_educational_form">EducationalFormActivity</string>
+    <string name="txt_titulo">Titulo</string>
+    <string name="txt_url">url</string>
+    <string name="txt_nota_rodape">Nota de Rodapé</string>
+    <string name="txt_pagina">Pagina</string>
+     <string name="btn_salvar">Salvar</string>
+     
+       <string name="msg_sucesso_inclusao"> incluído com sucesso!</string>
+    <string name="msg_sucesso_edicao"> editado com sucesso!</string>
+    <string name="msg_sucesso_exclusao"> excluído com sucesso!</string>
+    <string name="msg_url_invalida"> Url invalida!</string>
+    
+    <string name="titulo_dialog_confirmacao">Confirmação</string>
+    <string name="msg_dialog_confirmacao_exclusao">Deseja realmente excluir  %s?</string> 
+
+</resources>

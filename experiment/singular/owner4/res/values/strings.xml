@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- String com o nome do Aplicativo -->
+    <string name="app_name">Experimento</string>
+    
+    <!-- Strings comuns -->
+    <string name="progress_aguarde">Aguarde&#8230;</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string> 
+    
+    <!-- Strings dialogs -->
+    <string name="titulo_dialog_confirmacao">Confirmação</string> 
+    
+    <!-- Strings de sucesso -->
+    <string name="msg_ms01">Conteúdo Educacional criado com sucesso.</string>
+    <string name="msg_ms02">Conteúdo Educacional alterado com sucesso.</string>
+    <string name="msg_ms03">Conteúdo Educacional descartado com sucesso.</string>
+    
+    <!-- Strings de erro -->
+    <string name="msg_me01">Este campo é obrigatório</string>
+    <string name="msg_me02">Esta URL é inválida</string>
+    <string name="msg_erro_rest">Ocorreu um erro inesperado.</string>
+    
+    <!-- Strings de confirmação -->
+    <string name="msg_mc01">Este Conteúdo Educacional será descartado. Deseja confirmar?</string>
+    
+    <!-- Strings de título -->
+    <string name="title_activity_educational_content">Educational content</string>
+    
+    <!-- Strings de ajuda -->
+    <string name="hint_titulo">Título</string>
+    <string name="hint_url_imagem">URL da Imagem</string>
+    <string name="hint_nota_rodape">Nota de Rodapé</string>
+    <string name="hint_pagina">Página</string>
+    <string name="hint_salvar">Salvar</string>
+    
+    <!-- Strings fluxos -->
+    <string name="action_incluir">Incluir</string>
+    <string name="action_editar">Editar</string>
+    <string name="action_excluir">Excluir</string>
+    <string name="action_refresh">Refresh</string>
+
+</resources>

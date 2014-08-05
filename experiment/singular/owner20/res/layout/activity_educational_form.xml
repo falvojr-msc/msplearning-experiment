@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+      <EditText
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_titulo"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/txtRodape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/txtTitulo"
+                    android:layout_marginTop="89dp"
+                    android:ems="10"
+                    android:hint="@string/txt_nota_rodape"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/txtUrl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="53dp"
+                    android:ems="10"
+                    android:hint="@string/txt_url"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/txtPagina"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/txtRodape"
+                    android:layout_marginTop="26dp"
+                    android:ems="10"
+                    android:hint="@string/txt_pagina"                   
+                    android:maxLines="1"
+                    android:inputType="number"
+                    android:singleLine="true" >
+
+                    <requestFocus />
+                </EditText>
+
+                <Button
+                    android:id="@+id/btnSalvar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtPagina"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="42dp"
+                    android:text="@string/btn_salvar" />
+
+</RelativeLayout>
