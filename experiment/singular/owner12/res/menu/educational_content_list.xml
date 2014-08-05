@@ -4,14 +4,15 @@
     tools:context="br.com.cast.android.exp.EducationalContentListActivity" >
 
     <item
-        android:id="@+id/action_refresh"
-        android:orderInCategory="100"
-        android:title="@string/action_refresh"
-        app:showAsAction="never"/>
-     <item
         android:id="@+id/action_incluir"
-        android:orderInCategory="100"
+        android:orderInCategory="1"
         android:title="@string/action_incluir"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="2"
+        android:title="@string/action_refresh"
         app:showAsAction="never"/>
 
 </menu>

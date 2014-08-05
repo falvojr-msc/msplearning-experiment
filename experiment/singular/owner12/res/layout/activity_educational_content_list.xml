@@ -6,7 +6,7 @@
     tools:context="br.com.cast.android.exp.EducationalContentListActivity" >
 
     <ListView
-        android:id="@+id/listViewImagem"
+        android:id="@+id/educationalContentListView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
     </ListView>
