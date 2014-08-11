@@ -4,10 +4,11 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
 	version="1.0">
 
-	<persistence-unit name="postgresPU" transaction-type="RESOURCE_LOCAL">
+	<persistence-unit name="msplearningPU" transaction-type="RESOURCE_LOCAL">
 
 		<!-- JPA provider -->
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<non-jta-data-source>jdbc/MySQLDS</non-jta-data-source>
 
 		<!-- Maped entities (necessary for creating tables by property "hibernate.hbm2ddl.auto") -->
 		<class>com.msplearning.entity.Owner</class>
@@ -18,10 +19,6 @@
 		<!-- Connection configurations -->
 		<properties>	
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
- 			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
- 			<property name="hibernate.connection.username" value="root" />
- 			<property name="hibernate.connection.password" value="" />
- 			<property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/msplearning_exp" />
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />
 			<property name="hibernate.hbm2ddl.auto" value="validate" />
