@@ -17,7 +17,7 @@ import br.com.cast.android.experimento.rest.entity.EducationalContent;
  * 
  * @author venilton.junior
  */
-@Rest(rootUrl = "http://10.11.21.197:8080/rest-app/rest/", converters = { MappingJacksonHttpMessageConverter.class })
+@Rest(rootUrl = "http://msplearning-veniltonjr.rhcloud.com/experiment/rest/", converters = { MappingJacksonHttpMessageConverter.class })
 public interface ContentRestClient extends RestClientSupport {
 
 	@Post("/educationalContent")
