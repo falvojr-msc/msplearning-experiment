@@ -16,7 +16,7 @@
         android:ems="10"
         android:hint="@string/hint_titulo"
         android:maxLines="1"
-        android:maxLength="100"
+        android:maxLength="50"
         android:singleLine="true" >
 
         <requestFocus />
@@ -41,7 +41,7 @@
         android:hint="@string/hint_nota_rodape"
         android:maxLines="1"
         android:singleLine="true"
-        android:maxLength="100" >
+        android:maxLength="50" >
     </EditText>
     
         <EditText

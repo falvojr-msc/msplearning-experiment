@@ -15,7 +15,7 @@
 
         <EditText
             android:id="@+id/txtTitulo"
-            android:maxLength="100"
+            android:maxLength="50"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_titulo"
@@ -33,7 +33,7 @@
         
         <EditText
             android:id="@+id/txtNota"
-            android:maxLength="100"
+            android:maxLength="50"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_nota"

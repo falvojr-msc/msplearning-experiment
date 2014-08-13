@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/hint_titulo" 
-        android:maxLength="100" >
+        android:maxLength="50" >
 		
         <requestFocus />
     </EditText>
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/hint_rodape" 
-        android:maxLength="100"/>
+        android:maxLength="50"/>
 
     <EditText
         android:id="@+id/txtPagina"

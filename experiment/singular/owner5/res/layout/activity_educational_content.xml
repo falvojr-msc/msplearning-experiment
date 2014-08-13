@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:maxLength="100"
+        android:maxLength="50"
         android:hint="@string/hint_titulo" >
 
        <requestFocus />
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-         android:maxLength="100"
+         android:maxLength="50"
         android:hint="@string/hint_nota_rodape" />
 
      <EditText
